@@ -1,0 +1,33 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.guidde.com/security
+standards:
+- id: soc2-type2
+  name: SOC 2 Type 2
+  conforms: true
+  evidence: listed as a completed certification on the Guidde security page
+- id: gdpr
+  name: GDPR
+  conforms: true
+  evidence: listed as a compliance program on the Guidde security page
+- id: ccpa
+  name: CCPA
+  conforms: true
+  evidence: listed as a compliance program on the Guidde security page
+- id: dpf
+  name: EU-U.S. Data Privacy Framework (DPF)
+  conforms: true
+  evidence: listed as a compliance program on the Guidde security page
+- id: hipaa
+  name: HIPAA
+  conforms: false
+  evidence: marketing references HIPAA-aligned workflows but the security page does not
+    claim a HIPAA certification
+- id: iso-27001
+  name: ISO/IEC 27001
+  conforms: false
+  evidence: not listed on the Guidde security page
+- id: pci-dss
+  name: PCI DSS
+  conforms: false
+  evidence: payments are handled by Stripe; Guidde does not claim its own PCI DSS certification
