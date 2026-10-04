@@ -48,7 +48,7 @@ tags:
 - Documentation
 - Video
 - Digital Adoption
-- Knowledge-Management
+- Knowledge Management
 - Training
 - Onboarding
 - Screen Recording
@@ -67,6 +67,7 @@ tags_raw:
 - Artificial Intelligence
 - SaaS
 - Enterprise
+- Knowledge-Management
 apis: []
 maintainers:
 - FN: Kin Lane
