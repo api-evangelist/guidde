@@ -1,0 +1,74 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.guidde.com/pricing
+sources:
+- https://www.guidde.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Pro
+published: true
+note: Monthly and annual (Save 34%) prices shown side by side; add-ons (Premium voices, Voice cloning,
+  Virtual Avatar, Automatic language translation) listed without prices. Only Admins, Content Managers,
+  and Creators consume paid seats.
+plan_count: 6
+currency: USD
+plans:
+- name: Free
+  price_text: $0
+  price: 0
+  currency: USD
+  period: month
+  unit: per creator / month
+  included_quota: Up to 25 how-to videos, Work with any web app, Record a voiceover, Shareable with link,
+    Transitions & Soundtracks
+- name: Pro
+  price_text: $29
+  price: 29
+  currency: USD
+  period: month
+  unit: per creator / month
+  included_quota: 'Everything in Free, plus: Unlimited how-to videos, Remove Guidde watermark, Brand kit,
+    Export videos, PPTs & PDFs, Blur sensitive information'
+- name: Pro (annual billing)
+  price_text: $19
+  price: 19
+  currency: USD
+  period: month
+  unit: per creator / month
+  included_quota: Annual Billing (Save 34% )
+- name: Business
+  price_text: $59
+  price: 59
+  currency: USD
+  period: month
+  unit: per creator / month
+  included_quota: 'Everything in Pro, plus: Unlimited text-to-voice generation, Work with any web & desktop
+    app, Turn PDFs and PPTs to video, Advanced video privacy controls, Analytics and Insights, Up to 5
+    creators (billed per creator)'
+- name: Business (annual billing)
+  price_text: $39
+  price: 39
+  currency: USD
+  period: month
+  unit: per creator / month
+  included_quota: Annual Billing (Save 34% )
+- name: Enterprise
+  price_text: Contact us
+  period: none
+  included_quota: 'Everything in Business, plus: Unlimited screen recordings & uploads, Unlimited access
+    to premium voices, Multi-language translation, Magic redaction of PII, SSO, Content review & version
+    control'
+rate_limit_statements:
+- Up to 25 how-to videos
+- Up to 5 creators (billed per creator)
+- On-demand translation 60 minutes
+- Engagement insights 30 days 180 days
